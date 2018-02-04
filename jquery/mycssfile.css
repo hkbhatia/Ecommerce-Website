@@ -1,0 +1,131 @@
+ /*
+      Bhatia, Hitesh
+      Project #4
+      Fall 2017
+      821439483
+ */
+
+
+body{
+		padding-top:40px;
+	}
+	.slider-height{
+		height:600px;
+    display: inline-block;
+    overflow: hidden;
+	}
+.sliderImg {
+    width: 100%;
+    max-height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+   	}
+
+img{
+  margin-top: 5%;
+  
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+ .jumbotron{
+     background-color: #dcc6b2;
+     padding-top: 0px;
+ }
+ .navbar-default{
+     background: #573a21;
+ }
+
+ img:hover {
+     opacity: 1.0;
+     filter: alpha(opacity=100); /* For IE8 and earlier */
+ }
+
+  .noHover{
+    pointer-events: none;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+ .quantity-class{
+ width: 20px;
+ }
+
+ .navbar-default .navbar-brand{
+     color: #FFF;
+     font-size: 1em;
+     font-weight: normal;
+ }
+
+.navbar-default .navbar-brand:hover {
+     color: #dcc6b2;
+ }
+
+ .panel-backcolor{
+     background-color: #dcc6b2;
+ }
+
+ .cart-holder {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden;
+  background-color: #c09872;
+}
+
+.sidebar{
+    padding:5px;
+}
+.prod-size{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 1%;
+    width: 40rem;
+    height: 50rem;
+    float: left;
+    border: 3px solid rgba(166, 166, 166, 1.5);
+}
+
+#cart-button{
+    border-radius: 5px;
+     border: 2px solid rgba(166, 166, 166, 1.5);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.prod-text{
+    padding-bottom: 5%;
+    padding-right: 10%;
+    width: 40rem;
+    height: 10rem;
+    text-align: center;
+}
+
+.custom{
+  width:100px;
+  margin-left: 38%;
+  margin-bottom: .9em;
+}
+
+.custom2{
+  width:100px;
+  border-radius: 10px;
+}
+
+.table-header{
+  text-align: center;
+}
+
+#home_caption{
+  margin-bottom: 10%;
+}
